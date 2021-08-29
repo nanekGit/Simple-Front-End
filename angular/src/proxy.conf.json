@@ -1,0 +1,11 @@
+{
+  "/photos": {
+    "target": "https://jsonplaceholder.typicode.com",
+    "secure": false
+  },
+
+  "/comments": {
+    "target": "https://jsonplaceholder.typicode.com",
+    "secure": false
+  }
+}

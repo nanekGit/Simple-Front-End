@@ -1,0 +1,11 @@
+{
+  "clicks": "Clicks: ",
+  "clicks_desc": "Click the button to increase clicks value.",
+  "clicks_btn": "Click me!",
+  "send_btn": "Send!",
+  "login_btn": "Login!",
+  "logout_btn": "Logout!",
+  "save_btn": "Save!",
+  "show": "Show!",
+  "hide": "Hide!"
+}

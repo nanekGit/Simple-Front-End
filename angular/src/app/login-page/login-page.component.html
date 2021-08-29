@@ -1,0 +1,10 @@
+<mat-card>
+  <mat-card-content *ngIf="!isLogged()">
+    <p>Login</p>
+    <input type="password" [(ngModel)]="password">
+    <button mat-flat-button color="primary" (click)="login()">{{translationService.get("login_btn")}}</button>
+  </mat-card-content>
+  <mat-card-content *ngIf="isLogged()">
+    <button mat-flat-button color="primary" (click)="logout()">{{translationService.get("logout_btn")}}</button>
+  </mat-card-content>
+</mat-card>

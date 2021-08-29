@@ -1,0 +1,16 @@
+<mat-card class="example-card">
+  <mat-card-header>
+    <mat-card-title>
+      <mat-icon aria-hidden="false" aria-label="Just Mouse">mouse</mat-icon>
+      {{translationService.get("clicks")}}{{count}}
+    </mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <p>
+      {{translationService.get("clicks_desc")}}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-flat-button color="primary" (click)="click($event)">{{translationService.get("clicks_btn")}}</button>
+  </mat-card-actions>
+</mat-card>

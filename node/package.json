@@ -1,0 +1,13 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc -w",
+    "start": "node index.js",
+    "main": "node main.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,6 @@
+<mat-card>
+  <mat-card-content>
+    <input type="text" [(ngModel)]="value" (change)="storageService.edited = true">
+    <button mat-flat-button color="{{color}}" (click)="save()">{{translationService.get("save_btn")}}</button>
+  </mat-card-content>
+</mat-card>

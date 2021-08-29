@@ -1,0 +1,9 @@
+.hide-panel{
+  border: #000 solid 1px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.hide-panel button{
+  margin: 10px;
+}

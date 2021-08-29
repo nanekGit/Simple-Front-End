@@ -1,0 +1,40 @@
+<div>
+  <span class="flag" (click)="setLanguage(Languages.PL)">🇵🇱</span>
+  <span class="flag" (click)="setLanguage(Languages.EN)">🇬🇧</span>
+</div>
+
+
+
+<app-click-counter [count]="10" [limit]="20" (onLimit)="alert()"></app-click-counter>
+
+<app-hide-panel>
+  <app-click-counter [(count)]="start" [step]="5" [limit]="40" (onLimit)="zero()"></app-click-counter>
+</app-hide-panel>
+
+<app-click-counter [count]="10" [limit]="20" (onLimit)="alert2()"></app-click-counter>
+
+
+<br>
+<mat-sidenav-container style="height: 300px;">
+  <mat-sidenav mode="side" opened style="width: 120px;">
+    <nav>
+      <ul>
+        <li><a routerLink="/">Main</a></li>
+        <li><a routerLink="about/">About</a></li>
+        <li><a routerLink="contact/">Contact</a></li>
+        <li><a routerLink="login/">Login</a></li>
+        <li><a routerLink="admin/">Admin</a></li>
+        <li><a routerLink="comments/">Comments</a></li>
+      </ul>
+    </nav>
+  </mat-sidenav>
+  <br>
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+
+
+
+

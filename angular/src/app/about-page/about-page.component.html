@@ -1,0 +1,9 @@
+<mat-card>
+  <mat-card-content>
+    <p>Hello {{name}}</p>
+    <p>about-page works!</p>
+    <span>Value</span><input type="text" [(ngModel)]="value">
+    <button mat-flat-button color="primary" (click)="send()">{{translationService.get("send_btn")}}</button>
+    <br><span>Name</span><input type="text" [(ngModel)]="name">
+  </mat-card-content>
+</mat-card>

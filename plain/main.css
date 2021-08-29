@@ -1,0 +1,23 @@
+.fancy {
+    color: deeppink;
+}
+
+#first > div {
+    font-size: 1.5em;
+}
+
+#first > div ~ p {
+    font-size: 0.5em;
+}
+
+p:hover {
+    color: chartreuse;
+}
+p::before {
+    color: red;
+    content: "%";
+}
+
+p:nth-child(2*n){
+
+}

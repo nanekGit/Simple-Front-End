@@ -1,0 +1,8 @@
+<div>
+  <div *ngFor="let comment in commentService.getAll() | async">
+    <span>{{ comment.id }}</span>
+    <span>{{ comment.name }}</span>
+    <span>{{ comment.email }}</span>
+    <span>{{ comment.body }}</span>
+  </div>
+</div>
